@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <!--External CSS-->
+    <linK rel = 'stylesheet' href = 'styles.css'>
+</head>
+<body>
+    <section class = 'form'>   
+    <form>
+        <fieldset>
+            <legend>Form  </legend> &nbsp; 
+            <label for = 'name'>Name :    </label> &nbsp; &nbsp;
+            <input id = 'name' type = 'text' placeholder="Enter Name...">  &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label>Qualification : </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <input id = 'qualification' type = 'text' placeholder="Enter Qualification..."> <br> <br>
+
+            &nbsp;  <label for = 'places'>Place :   </label> &nbsp; &nbsp;
+           <select name="place" id="places">
+               <option value = 'Aurangabad'>Aurangabad</option>
+               <option value = 'Mumbai'>Mumbai</option>
+               <option value = 'Nanded'>Nanded</option>
+               <option value = 'Parbhani'>Parbhani</option>
+           </select>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp;
+
+           <label for = 'experience'>Experience (in years) :</label> &nbsp; 
+           <input id = 'experience' type = 'number' class = 'center'>  <br> <br>
+
+           <label class = 'select_image' for = 'image'>Image : </label>
+           <input id = 'image' type = 'file'>  &nbsp;&nbsp;&nbsp;        
+
+        </fieldset>
+        
+    </form>
+    <button class = 'upload-btn' onclick = "fake_upload()">Upload</button> <br> <br> &nbsp;&nbsp;&nbsp;
+    <button onclick="saveData()" class = 'submit' >Submit</button>
+
+</section>
+
+<!-- second section begins -->
+    <h1 class = 'users_heading'>List of Users.......</h1>
+
+
+
+    <script src = 'index.js'>  </script>
+
+</body>
+</html>
+
