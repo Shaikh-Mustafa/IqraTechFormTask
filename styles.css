@@ -1,0 +1,161 @@
+body{
+    background-color: #FFE3E3;
+}
+
+.form{
+   
+    background-color: #93B5C6;
+    position: sticky;
+    top: 0px;
+    height: 300px;   
+    z-index: 1;
+}
+
+legend{   
+    color: #f84848;
+    font-size: 2.5rem;    
+    padding : 5px;        
+    font-family: 'Bakbak One', cursive;
+    text-align: center;
+    position: relative;
+    right: 120px;
+}
+legend:hover{
+    color : black;
+}
+label{
+   font-family: 'Bakbak One', cursive;
+   color : #e4ebdb; 
+   font-size: 1.5rem;   
+}
+
+fieldset{
+    font-size: 1.5rem;
+    padding-left: 8%;
+    padding-top : 2%;
+    height: 230px;
+    border: none;
+}
+
+input{
+    width : 300px;
+    height: 30px;
+    font-family: 'Balsamiq Sans', cursive;
+    background-color : #C9CCD5; 
+    font-size: 1.3rem;
+    
+}
+select{
+    font-family: 'Balsamiq Sans', cursive;
+    width : 300px;
+    height: 30px;
+    background-color: #C9CCD5;
+    font-size: 1.3rem;
+
+}
+
+.submit{
+    position : relative;
+    left : 1300px;
+    bottom : 250px;
+    width : 150px;
+    height: 150px;
+    border-radius: 20%;
+    font-size: 2rem;
+    background-color: #77D970;
+    color : #ffea00;
+}
+.submit:hover{
+    background-color: #ffea00;
+    color : black;
+}
+.upload-btn{    
+    width : 150px;
+    height: 35px;
+    font-size: 1.3rem;
+    background-color: #ff4800;
+    color : #ffea00;
+    text-align : center;
+    position : relative;
+    left : 770px;
+    bottom : 52px;    
+}
+
+.select_image{
+    margin-left : 250px;
+  
+}
+
+.center{
+    text-align: center;
+}
+
+/* record list section */
+
+.recordList{
+    background-color: #C9CCD5;
+    margin : 10px auto 10px auto;
+    color : black;
+}
+
+.users_heading{
+    background-color: #8dad52;
+    color : #ffffff;
+    
+    font-family: 'Bakbak One', cursive;;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: #93B5C6;
+
+    margin-top : 5px;
+     
+    height: 40px;
+    position : sticky;
+    top : 300px;
+    z-index: 1;
+}
+
+.users_heading:hover{
+    color : black;
+}
+
+.hide{
+    display: none;
+}
+
+.data-card{    
+        width : 60%;
+        margin-top : -250px;
+        margin-left: 150px;
+        height : 250px;
+        margin-bottom: 0px;
+        background-color : red;
+        color : white;
+        font-size: 2rem;
+        text-align: center;
+
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: left;
+        padding-left: 300px;
+        padding-top : 30px;
+       
+}
+
+.fake-upload{
+    background-color: #77D970;
+}
+
+/* upload image display */
+
+.display_image{
+    width : 230px;
+    height : 230px;
+    border : 1px solid black;
+    background-position: center;
+    background-size: cover;
+    position : relative;
+    top : -5px;
+    left : 180px;
+    display : none;
+}
