@@ -25,6 +25,7 @@
 
             &nbsp;  <label for = 'places'>Place :   </label> &nbsp; &nbsp;
            <select name="place" id="places">
+               <option selected value="null">Select City </option>
                <option value = 'Aurangabad'>Aurangabad</option>
                <option value = 'Mumbai'>Mumbai</option>
                <option value = 'Nanded'>Nanded</option>
@@ -36,12 +37,12 @@
            <input id = 'experience' type = 'number' class = 'center'>  <br> <br>
 
            <label class = 'select_image' for = 'image'>Image : </label>
-           <input class = 'upload_image' type = 'file' accept="image/png image/jpg">  &nbsp;&nbsp;&nbsp;        
+           <input class = 'upload_image' type = 'file' accept="image/png image/jpg" onchange="setImage(event)">  &nbsp;&nbsp;&nbsp;        
 
         </fieldset>
         
     </form>
-    <button class = 'upload-btn'>Upload</button> <br> <br> &nbsp;&nbsp;&nbsp;
+   
     <button class = 'submit' >Submit</button>
 
 </section>

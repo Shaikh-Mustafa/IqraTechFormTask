@@ -1,170 +1,147 @@
-body{
-    background-color: #FFE3E3;
+body {
+  background-color: #E5E3C9;
 }
 
-.form{
-   
-    background-color: #93B5C6;
-    position: sticky;
-    top: 0px;
-    height: 300px;   
-    z-index: 1;
+.form {
+  background-color: #789395;
+  position: sticky;
+  top: 0px;
+  height: 300px;
+  z-index: 1;
 }
 
-legend{   
-    color: #f84848;
-    font-size: 2.5rem;    
-    padding : 5px;        
-    font-family: 'Bakbak One', cursive;
-    text-align: center;
-    position: relative;
-    right: 120px;
+legend {
+  color: #000000;
+  font-size: 2.5rem;
+  padding: 5px;
+  font-family: "Bakbak One", cursive;
+  text-align: center;
+  position: relative;
+  right: 120px;
 }
-legend:hover{
-    color : black;
+legend:hover {
+  color: rgb(4, 0, 255);
 }
-label{
-   font-family: 'Bakbak One', cursive;
-   color : #e4ebdb; 
-   font-size: 1.5rem;   
-}
-
-fieldset{
-    font-size: 1.5rem;
-    padding-left: 8%;
-    padding-top : 2%;
-    height: 230px;
-    border: none;
+label {
+  font-family: "Bakbak One", cursive;
+  color: #ffffff;
+  font-size: 1.5rem;
 }
 
-input{
-    width : 300px;
-    height: 30px;
-    font-family: 'Balsamiq Sans', cursive;
-    background-color : #C9CCD5; 
-    font-size: 1.3rem;
-    
-}
-select{
-    font-family: 'Balsamiq Sans', cursive;
-    width : 300px;
-    height: 30px;
-    background-color: #C9CCD5;
-    font-size: 1.3rem;
-
+fieldset {
+  font-size: 1.5rem;
+  padding-left: 8%;
+  padding-top: 2%;
+  height: 230px;
+  border: none;
 }
 
-.submit{
-    position : relative;
-    left : 1300px;
-    bottom : 250px;
-    width : 150px;
-    height: 150px;
-    border-radius: 20%;
-    font-size: 2rem;
-    background-color: #77D970;
-    color : #ffea00;
+input {
+  width: 300px;
+  height: 30px;
+  font-family: "Balsamiq Sans", cursive;
+  background-color: #c9ccd5;
+  font-size: 1.3rem;
 }
-.submit:hover{
-    background-color: #ffea00;
-    color : black;
-}
-.upload-btn{    
-    width : 150px;
-    height: 35px;
-    font-size: 1.3rem;
-    background-color: #ff4800;
-    color : #ffea00;
-    text-align : center;
-    position : relative;
-    left : 770px;
-    bottom : 52px;    
+select {
+  font-family: "Balsamiq Sans", cursive;
+  width: 300px;
+  height: 30px;
+  background-color: #c9ccd5;
+  font-size: 1.3rem;
 }
 
-.select_image{
-    margin-left : 250px;
-  
+.submit {
+  position: relative;
+  left: 1300px;
+  bottom: 250px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20%;
+  font-size: 2rem;
+  background-color: #B4CFB0;
+  color: #000000;
+}
+.submit:hover {
+  background-color: #E5E3C9;
+  color: rgb(0, 0, 0);
 }
 
-.center{
-    text-align: center;
+.select_image {
+  margin-left: 350px;
+}
+
+.center {
+  text-align: center;
 }
 
 /* record list section */
 
-.recordList{
-    background-color: #C9CCD5;
-    margin : 10px auto 10px auto;
-    color : black;
+
+.users_heading {
+  background-color: #94B49F;
+  color: #425657;
+
+  font-family: "Bakbak One", cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-shadow: #93b5c6;
+
+  margin-top: 5px;
+
+  height: 40px;
+  position: sticky;
+  top: 300px;
+  z-index: 1;
 }
 
-.users_heading{
-    background-color: #8dad52;
-    color : #ffffff;
-    
-    font-family: 'Bakbak One', cursive;;
-    text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    text-shadow: #93B5C6;
 
-    margin-top : 5px;
-     
-    height: 40px;
-    position : sticky;
-    top : 300px;
-    z-index: 1;
+
+.data-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  width: 75%;
+  height: 300px;
+  background-color: #B4CFB0;
+  color: #f84848;
+  font-size: 1.5rem;
+
+  font-family: "Balsamiq Sans", cursive;
+  text-align: left;
+  border-radius: 5%;
 }
 
-.users_heading:hover{
-    color : black;
-}
-
-.hide{
-    display: none;
-}
-
-.data-card{    
-        
-        width : 60%;        
-        height : 300px;       
-        background-color : red;
-        color : white;
-        font-size: 1.5rem;   
-
-        font-family: 'Balsamiq Sans', cursive;
-        text-align: center;
-        border-radius: 15%;
-        
-       
-}
-
-.fake-upload{
-    background-color: #77D970;
-}
 
 /* upload image display */
 
-.display_image{
-    width : 230px;
-    height : 230px;
-    border : 1px solid black;
-    background-position: center;
-    background-size: cover;
-    position : relative;
-    top : -5px;
-    left : 180px;
-    display : none;
+
+
+#users_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-#users_section{
-    display: flex;
-    flex-direction: column;
-    align-items : center;
-    gap : 1rem;
+span {
+  text-decoration: underline;
+  font-weight: 900;
+  color : rgb(16, 14, 14);
+  padding-left:10px;
 }
 
-span{
-    text-decoration: underline;
-    font-weight: 900;
+.img-container{
+   display : flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.user-img{
+    height: 250px;
+    width : auto;
+    border : 2px solid black;
+    border-radius: 5%;
 }
