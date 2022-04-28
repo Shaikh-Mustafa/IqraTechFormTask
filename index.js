@@ -6,7 +6,7 @@
     var upload = document.querySelector(".upload-btn");
 
     function setImage(event){
-        console.log(event.target.files[0]);
+        // console.log(event.target.files[0]);
         uploaded_img = event.target.files[0];
     }
     submit.addEventListener("click",()=>{
