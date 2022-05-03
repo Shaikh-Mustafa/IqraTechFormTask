@@ -1,9 +1,11 @@
 
     var submit = document.querySelector(".submit");
 
-    var uploaded_img; 
+    var uploaded_img = null; 
 
     var upload = document.querySelector(".upload-btn");
+
+       
 
     function setImage(event){
         // console.log(event.target.files[0]);
@@ -40,4 +42,10 @@
         userSection.appendChild(card);
 
         card.classList.add("data-card")
+    })
+
+    // clear button
+
+    document.querySelector(".btn-clear").addEventListener("click",function(){
+        window.location.reload();
     })

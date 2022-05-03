@@ -145,3 +145,16 @@ span {
     border : 2px solid black;
     border-radius: 5%;
 }
+
+footer{
+  text-align: center;
+}
+
+.btn-clear{
+ border-radius: 10%;
+ margin-top : 20px;
+ font-size: 25px;
+ padding: 4px;
+ background-color : rgb(221, 161, 49);
+ color : black;
+}
